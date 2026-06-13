@@ -24,7 +24,7 @@ connectDB();
 
 // Middlewares
 const allowedOrigins = [
-    "http://localhost:5173",
+    "https://real-estate-platform-frontend-alpha.vercel.app",
 ].filter(Boolean);
 app.use(cors({
     origin: function (origin, callback) {
